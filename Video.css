@@ -513,7 +513,7 @@ body.vjs-full-window {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 4em;
+  height: 40px;
   background: -webkit-linear-gradient(transparent,rgba(0,0,0,.9));
     background: linear-gradient(transparent,rgba(0,0,0,.9));
     -webkit-transition: opacity .2s ease-out; }
@@ -569,9 +569,9 @@ body.vjs-full-window {
   flex: none; }
   .video-js .vjs-control:before {
     font-size: 1.8em;
-    line-height: 2.1; }
+    line-height: 40px; }
 
-.video-js .vjs-volume-menu-button:hover,.video-js .vjs-fullscreen-control:hover{color:#A845DE}
+.video-js .vjs-volume-menu-button:hover,.video-js .vjs-fullscreen-control:hover{color:#00a1d6}
 
 .video-js .vjs-control-text {
   border: 0;
@@ -651,7 +651,7 @@ body.vjs-full-window {
   display: none; }
 
 .video-js .vjs-play-progress {
-  background-color: #A845DE; }
+  background-color: #00a1d6; }
   .video-js .vjs-play-progress:before {
     position: absolute;
     top: -0.333333333333333em;
@@ -679,8 +679,8 @@ body.vjs-full-window {
   z-index: 1; }
 
 .video-js .vjs-load-progress {
-  background: #bfc7d3;
-  background: rgba(115, 133, 159, 0.5); }
+  background: #8adced;
+}
 
 .video-js .vjs-load-progress div {
   background: white;
@@ -759,7 +759,8 @@ body.vjs-full-window {
 
 .vjs-volume-bar.vjs-slider-horizontal {
   width: 5em;
-  height: 0.2em; }
+  height: 7em;
+  background: transparent}
 
 .vjs-volume-bar.vjs-slider-vertical {
   width: 0.3em;
@@ -770,7 +771,7 @@ body.vjs-full-window {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #A845DE; }
+  background-color: #00a1d6; }
   .video-js .vjs-volume-level:before {
     position: absolute;
     font-size: 0.9em; }
@@ -823,7 +824,7 @@ body.vjs-full-window {
 .vjs-volume-menu-button-horizontal:focus .vjs-menu-content,
 .vjs-volume-menu-button-horizontal .vjs-slider-active .vjs-menu-content,
 .vjs-volume-menu-button-horizontal .vjs-lock-showing .vjs-menu-content {
-  height: 2.9em;
+  height: 40px;
   width: 8em; }
 
 .vjs-volume-menu-button.vjs-menu-button-inline .vjs-menu-content {
@@ -894,7 +895,7 @@ body.vjs-full-window {
   -ms-flex: none;
   flex: none;
   font-size: 1em;
-  line-height: 3em;
+  line-height: 40px;
   min-width: 2em;
   width: auto;
   padding-left: 1em;
