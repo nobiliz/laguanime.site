@@ -605,8 +605,6 @@ body.vjs-full-window {
   -ms-flex-align: center;
   align-items: center;
   min-width: 4em; 
-  padding-left: 125px;
-  background: url("https://3.bp.blogspot.com/-D8lGTKqKFVg/WPDy6SRZOSI/AAAAAAAACts/qGilArTpaL8uaNBOnGKptk24Xb8hVpibQCLcB/s1600/videoplayer-logo.png") no-repeat scroll left center / 120px 25px transparent;
 }
 
 .vjs-live .vjs-progress-control {
@@ -755,12 +753,11 @@ body.vjs-full-window {
   align-items: center; }
 
 .video-js .vjs-volume-bar {
-  margin: 1.35em 0.45em; }
+  margin: 1.85em 0.45em; }
 
 .vjs-volume-bar.vjs-slider-horizontal {
   width: 5em;
-  height: 7em;
-  background: transparent}
+  height: 0.20em; }
 
 .vjs-volume-bar.vjs-slider-vertical {
   width: 0.3em;
