@@ -37,7 +37,7 @@ a.expander-link{color:#167AC6!important}
 .play-list .table_row{line-height:1.33341;font-weight:400;letter-spacing:0}
 .play-list .table_row:hover,.play-list .table_row:hover .table-row-artist{color:#167AC6}
 .play-list .table_row td{vertical-align:middle;height:50px}
-.play-list .table-row-track{padding:0;position:relative;vertical-align:middle;z-index:1}
+.play-list .table-row-track{width:32px;padding:0;position:relative;vertical-align:middle;z-index:1}
 .play-list .table-row-duration{text-align:right}
 .play-list th,td{text-align:left}
 .table_row:hover a.play-button,.table_row:hover .dl{visibility:visible;opacity:1}
