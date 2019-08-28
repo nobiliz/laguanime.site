@@ -17,6 +17,7 @@
 .music-wrap h2{margin:0 0 10px;font-weight:500;font-size:17px}
 .music-img{overflow:hidden;margin:0 15px 0 0;max-width:200px;float:left;height:100%}
 .music-img img{width:100%;max-height:200px}
+.music-info{color:#212121;line-height:18px}
 #music-detail{overflow:hidden;position:relative}
 #open-music-detail{display:block;position:relative}
 #music-detail-ellipis{right:0;bottom:0;position:absolute;background:#fff;font-weight:500;top:-17px;padding-left:7px}
