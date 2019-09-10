@@ -31,6 +31,7 @@ a.expander-link{color:#167AC6!important}
 .download-link a{height:24px;display:inline-block;line-height:24px;margin-right:5px;padding:0 10px;background:#fff;border-radius:2px}
 .download-link a:hover{background:#38A8F3;color:#fff;text-decoration:none}
 /* Music Player */
+.play-track{display:none}
 .play-list{padding:15px}
 .play-list p{float:left}
 .play-list table{border-collapse:collapse;width:100%;border-top:1px solid #ddd}
@@ -75,8 +76,8 @@ to{opacity:1}}
 .music-img{float:none;text-align:center;margin:-15px -15px 20px;background:#fafafa;padding:15px 0;width:auto;max-width:none}
 .music-img img{max-height:100%;max-width:61%}
 .play-list .table_row td{padding:0 5px}
-.play-track{margin:0 0 10px;color:#0086e0}
+.play-track{margin:0 0 10px;color:#0086e0;position:relative;display:block}
 .play-tracklist{width:18px;height:18px;display:inline-block;background-position:-39px -7px}
-.play-tracklist::after{content:"Play"}
+.play-tracklist::after{content:"Play";right:-30px;position:absolute}
 .play-track>a.sm2_button.sm2_playing:hover{background-position:-39px -7px}
 }
