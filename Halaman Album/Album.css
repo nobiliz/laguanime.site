@@ -72,5 +72,11 @@ to{opacity:1}}
 @keyframes fade-in{from{opacity:0}
 to{opacity:1}}
 @media screen and (max-width:480px){
-.music-img{float:none;text-align:center;margin:-15px -15px 20px;background:#fafafa;padding:15px 0;width:auto;max-width:none}.music-img img{max-height:100%;max-width:61%}.play-list .table_row td{padding:0 5px}
+.music-img{float:none;text-align:center;margin:-15px -15px 20px;background:#fafafa;padding:15px 0;width:auto;max-width:none}
+.music-img img{max-height:100%;max-width:61%}
+.play-list .table_row td{padding:0 5px}
+.play-track{margin:0 0 10px;color:#0086e0}
+.play-tracklist{width:18px;height:18px;display:inline-block;background-position:-39px -7px}
+.play-tracklist::after{content:"Play"}
+.play-track>a.sm2_button.sm2_playing:hover{background-position:-39px -7px}
 }
