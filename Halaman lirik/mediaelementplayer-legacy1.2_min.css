@@ -87,7 +87,7 @@
 .mejs-button>button{background:transparent url(https://2.bp.blogspot.com/-PQp7yiOzG7M/XjW4ULqj6-I/AAAAAAAAFKA/ROkCesd7OxYqkq2h8uUhK_1jw8loF7nbQCNcBGAsYHQ/s1600/lrc_player.png);border:0;cursor:pointer;display:block;font-size:0;height:20px;line-height:0;margin:10px 6px;overflow:hidden;padding:0;position:absolute;text-decoration:none;width:20px}
 .mejs-button>button:focus{outline:1px dotted #999}
 .mejs-container-keyboard-inactive [role=slider],.mejs-container-keyboard-inactive [role=slider]:focus,.mejs-container-keyboard-inactive a,.mejs-container-keyboard-inactive a:focus,.mejs-container-keyboard-inactive button,.mejs-container-keyboard-inactive button:focus{outline:0}
-.mejs-time{box-sizing:content-box;color:#737373;font-size:11px;height:24px;overflow:hidden;padding:16px 6px 0;text-align:center;width:auto}
+.mejs-time{box-sizing:content-box;color:#737373;font-size:11px;height:24px;overflow:hidden;padding:14px 6px 0;text-align:center;width:auto}
 .mejs-play>button{background-position:0 0 0 0}
 .mejs-pause>button{background-position:-20px 0}
 .mejs-replay>button{background-position:-160px 0}
