@@ -1,17 +1,21 @@
+#Ost{padding-top:15px}
+#Ost h2{margin:0 15px}
 .post{background:#fff;box-shadow:0 1px 2px rgba(0, 0, 0, 0.1)}
 /* Multitab */
-.multitab-widget{list-style:outside none none;overflow:hidden;padding:0;margin:10px 0 0}
+.multitab-widget{list-style:outside none none;overflow:hidden;padding:0;margin:0;display:inline-block}
 .multitab-widget li{float:left}
-.multitab-widget li a{display:inline-block;padding:0 10px;outline:0 none;font-size:11px;text-decoration:none;white-space:nowrap;word-wrap:normal;vertical-align:middle;cursor:pointer;border-radius:2px;background:#f5f5f5;font-family:Roboto,arial,sans-serif;margin-right:5px;border:medium none;font-weight:400;color:#444;line-height:26px;transition:background-color 0.2s ease 0s}
-.multitab-widget li a:hover{background:#E4E4E4;text-decoration:none}
+.multitab-widget li a{display:inline-block;outline:0 none;font-size:12px;white-space:nowrap;word-wrap:normal;vertical-align:middle;cursor:pointer;margin-right:5px;border:medium none;font-weight:400;color:#444;line-height:31px;margin-right:10px;text-decoration:none}
 .multitab-tab{border:0;text-align:center}
-.multitab-widget li a.multitab-widget-current{text-decoration:none;color:#FFF;background:#38A8F3}
-.multitab-widget li a .fa{margin-right:3px}
-.multitab-widget-2{list-style:outside none none;overflow:hidden;padding:0;margin:0 0 15px}
-.multitab-widget-2 li{float:left}
-.multitab-widget-2 li a{display:inline-block;font-size:13px;margin-right:10px;font-weight:500;color:#444;line-height:26px;transition:background-color .2s ease 0}
-.multitab-widget-2 li a:hover,.multitab-widget-2 li a.multitab-widget-current-2{color:#167AC6;text-decoration:none}
-.multitab-tab{border:0;text-align:center}
+.multitab-widget li a.multitab-widget-current{text-decoration:none;color:#00a1d6;box-shadow:0 -1px 0 #00a1d6 inset;position:relative}
+.multitab-widget li a.multitab-widget-current::after{content:&quot;&quot;;transform:translateX(-50%);margin-left:-3px;border-bottom:3px solid #00a1d6;border-top:0;border-left:3px solid transparent;border-right:3px solid transparent;position:absolute;width:1px;display:inline;left:0;bottom:0;margin-left:50%}
+/* Multitab1 */
+.multitab-widget1{list-style:outside none none;overflow:hidden;padding:0;margin:10px 0 0}
+.multitab-widget1 li{float:left}
+.multitab-widget1 li a{display:inline-block;padding:0 10px;outline:0 none;font-size:11px;text-decoration:none;white-space:nowrap;word-wrap:normal;vertical-align:middle;cursor:pointer;border-radius:2px;background:#f5f5f5;font-family:Roboto,arial,sans-serif;margin-right:5px;border:medium none;font-weight:400;color:#444;line-height:26px;transition:background-color 0.2s ease 0s}
+.multitab-widget1 li a:hover{background:#E4E4E4;text-decoration:none}
+.multitab-tab1{border:0;text-align:center}
+.multitab-widget1 li a.multitab-widget-current{text-decoration:none;color:#FFF;background:#38A8F3}
+.multitab-widget1 li a .fa{margin-right:3px}
 /* Kotak Music */
 .music-wrap{overflow:hidden;min-height:230px;border-bottom:1px solid #ddd;padding:15px}
 .music-wrap h2{margin:0 0 10px;font-weight:500;font-size:17px}
