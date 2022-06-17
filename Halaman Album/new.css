@@ -13,10 +13,10 @@
 .multitab-widget-2 li a:hover,.multitab-widget-2 li a.multitab-widget-current-2{color:#167AC6;text-decoration:none}
 .multitab-tab{border:0;text-align:center}
 /* Kotak Music */
-.music-wrap{overflow:hidden;min-height:230px;border-bottom:1px solid #ddd;padding:15px}
+.music-wrap{overflow:hidden}
 .music-wrap h2{font:normal 28px/1em'Helvetica Neue',Helvetica,Arial,sans-serif;margin:0 0 8px}
 .music-wrap h3{margin:0 0 10px;font:normal 14px/15px'Helvetica Neue',Helvetica,Arial,sans-serif}
-.music=detail{font-size: 12px;line-height: 1.25em}
+.music-info{font-size: 12px;line-height: 1.25em}
 .music-img{overflow:hidden;margin:0 0 0 15px;max-width:350px;float:right;height:100%;}
 .music-img img{width:100%;max-height:350px}
 #music-detail{overflow:hidden;position:relative}
