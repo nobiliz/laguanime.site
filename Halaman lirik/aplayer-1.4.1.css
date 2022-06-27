@@ -49,14 +49,14 @@
 .aplayer .aplayer-pic .aplayer-pause svg{position:absolute;top:2px;left:2px;height:12px;width:12px}
 .aplayer .aplayer-info{/*! margin-left: 66px;
 	*//*! padding:14px 7px 0 10px;*/height:66px;box-sizing:border-box}
-.aplayer .aplayer-info .aplayer-music{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:18px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;cursor:default;padding-bottom:2px;position:absolute;top:-15px;left:15px;color:#fff;padding:5px;transition:all .5s ease-out;max-width:500px;z-index:1}
+.aplayer .aplayer-info .aplayer-music{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:18px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;cursor:default;padding-bottom:2px;position:absolute;top:-35px;left:15px;color:#fff;padding:5px;max-width:500px;z-index:1}
 .aplayer .aplayer-info .aplayer-music .aplayer-title{font-size:18px}
 .aplayer .aplayer-info .aplayer-music .aplayer-author{font-size:18px}
 .aplayer:hover .aplayer-controller{bottom:-0!important}
 .aplayer:hover .aplayer-music{top:15px!important}
 .aplayer:hover .aplayer-body::before{top:-0!important}
-.aplayer-body::before{content:'';height:60px;width:100%;position:absolute;display:inherit;background-image:linear-gradient(#00000082,#fff0);z-index:1;top:-60px;transition: all .5s ease-ou}
-.aplayer .aplayer-info .aplayer-controller{position:absolute;bottom:-27px;width:100%;background:#000000a3;transition:all .5s ease-out}
+.aplayer-body::before{content:'';height:60px;width:100%;position:absolute;display:inherit;background-image:linear-gradient(#00000082,#fff0);z-index:1;top:-60px}
+.aplayer .aplayer-info .aplayer-controller{position:absolute;bottom:-37px;width:100%;background:#000000a3;transition:all .5s ease-out}
 .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap{cursor:pointer!important;width:100%;padding-bottom:10px}
 .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap:hover .aplayer-bar .aplayer-played .aplayer-thumb{-webkit-transform:scale(1);transform:scale(1)}
 .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar{position:relative;height:4px;width:100%;background:#cdcdcd}
