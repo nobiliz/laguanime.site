@@ -133,10 +133,9 @@ to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
 .music-img{overflow:hidden;margin:0 15px 0 0;max-width:200px;float:left;height:100%}
 .music-img img{width:100%;max-height:200px}
 #music-detail{overflow:hidden;position:relative}
-#open-music-detail{display:block;position:relative}
-#music-detail-ellipis{right:0;bottom:0;position:absolute;background:#fff;font-weight:500;top:-17px;padding-left:7px}
+#open-music-detail{display:inline;position:relative}
 #music-detail-show{display:none}
-a.expander-link{color:#167AC6!important}
+a.expander-link{color:#000!important;font-weight:500;}
 .show{display:block}
 /* Download area */
 .download-area{padding:15px;border-bottom:1px solid #DDD}
