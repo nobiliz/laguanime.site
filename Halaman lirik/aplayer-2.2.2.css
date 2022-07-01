@@ -160,7 +160,7 @@ a.expander-link{color:#000!important;font-weight:500;}
 .download-link a:hover{background:#38A8F3;color:#fff;text-decoration:none}
 
   @media screen and (max-width:600px){
-  .aplayer.aplayer-withlrc .aplayer-pic,.aplayer.aplayer-withlrc .aplayer-info{height:40vh !important}
+  .aplayer.aplayer-withlrc .aplayer-pic,.aplayer.aplayer-withlrc .aplayer-info{height:30vh !important}
 	  .tabcontent h3 span {dislpay:none}
 	  .music-img{max-width:150px}
   }
